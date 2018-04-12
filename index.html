@@ -7,22 +7,31 @@
 	<link rel="stylesheet" href="css/materialize.min.css">
 </head>
 <body>
-	<div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">account_circle</i>
+
+	<div class="container" style="max-width: 600px;">		
+    <div class="row">
+	    <div class="input-field col s6">
+	      <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Telephone</label>
-        </div>
-      </div>
-    </form>
-  </div>
+          <label for="icon_prefix">User:</label>
+	    </div>
+    </div>
+    <div class="row">
+	    <div class="input-field col s6">
+	      <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_prefix" type="password" class="validate">
+          <label for="icon_prefix">Password:</label>
+	    </div>
+	    
+    </div>
+    <div class="row">
+    	<div class="input-field col s6">
+    	  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    	   <i class="material-icons right">send</i>
+          </button>
+    	</div>
+    </div>
+</div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
